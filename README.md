@@ -17,7 +17,7 @@ Make sure git and Docker are already installed on your computer.
 4) Take the recently created image and create a container from it (your node is now running and syncing)
 `docker run -d <INSERT IMAGE ID> `
 
-5) Get a bash shell in the recently craeted container
+5) Get a bash shell in the recently created container
 `docker exec -t -i <What Step 4 returned> /bin/bash`
 
 6) Read the [Handshake Documentation](https://handshake-org.github.io/) and start playing around 
